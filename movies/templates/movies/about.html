@@ -1,0 +1,16 @@
+{% extends 'movies/_base.html' %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+<body>
+{% block content %}
+<h1>My favorite movies are suspense and action. I also like anime movies.</h1>
+{% load static %}
+<img src="{% static 'movies/autum.jpg' %}" style="width: 200px; height: 200px; " alt="about me picture">
+
+{% endblock %}
+</body>
+</html>
